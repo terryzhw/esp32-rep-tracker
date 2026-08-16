@@ -18,7 +18,7 @@ Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini a
 ## KiCad Schematic & PCB layout 
 
 ![schematic](curl_tracker.svg)
-![pcb_view](pcb_view_png)
+![pcb_view](pcb_view.png)
 ![3d_view](3d_view.png)
 
 ### Design Choices: 

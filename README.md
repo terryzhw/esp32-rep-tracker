@@ -4,6 +4,17 @@
 
 Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini alongside a MPU-6500 IMU to count reps, measure curl speed, and evaluate form in real-time. It uses a on-device classifier to distinguish good reps from common curl form faults. Curl Tracker displays live rep metrics to a SSD1306 OLED and streams data over MQTT to be plotted on a Python/matplotlib client. It also provides haptic feedback and monitoring of device state.
 
+## Bicep-Curl Classifier
+### Training:
+
+<img width="614" height="839" alt="image" src="https://github.com/user-attachments/assets/a76e8af6-47bd-4611-9559-09ef817775e5" />
+
+### Collecting:
+<img width="133" height="261" alt="image" src="https://github.com/user-attachments/assets/fa80ab4e-ff63-43aa-9450-e85a747db0ed" />
+
+### Working Video:
+
+
 ## Breadboard Prototype
 
 ### Design Choices:

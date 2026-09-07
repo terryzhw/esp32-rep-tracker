@@ -13,7 +13,7 @@ Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini a
 - MCU & Peripherals: ESP32-C3 Super Mini is the MCU that serves as the brain for the project. MPU-6500 IMU and SSD1306 share a I2C bus which the ESP32 uses to communicate. A push button is used to provide data collection input to label reps while gathering training data for the classifier.
 
 - Feedback: A status LED exists which turns on if any of the electronic malfunction. The OLED displays rep count, sets, and status of MQTT. The vibration motor, paired with a flyback diode circuit for back-EMF protection, is used for haptic feedback.
-- 
+  
 ![Curl Tracker breadboard prototype](curl_tracker_breadboard.jpg)
 
 ## KiCad Schematic & PCB layout 

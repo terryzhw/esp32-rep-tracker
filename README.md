@@ -26,7 +26,7 @@ Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini a
   
 - TP4056 → MCP73831: Swapped the TP4056 for Microchip's MCP73831. Better documented, properly sourced through mainstream distributors, and easier to justify in a design review.
   
-- MT3608 → TPS63001: A LiPo swings from 4.2 V down to 3.0 V, which straddles the 3.3 V rail from both directions. A boost-only converter or an LDO can't hold regulation across that whole range, so the TPS63001 buck-boost keeps 3.3 V stable through the full discharge curve — including the current spikes when the ESP32's radio transmits.
+- MT3608 → TPS63001: A LiPo swings from 4.2 V down to 3.0 V, which straddles the 3.3 V rail from both directions. A boost-only converter or an LDO can't hold regulation across that whole range, so the TPS63001 buck-boost keeps 3.3 V stable through the full discharge curve, including the current spikes when the ESP32's radio transmits.
   
 - USB-C: The current connector standard: reversible, mechanically more durable than micro-B, and what any user will already have a cable for.
   

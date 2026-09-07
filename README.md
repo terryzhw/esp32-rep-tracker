@@ -17,11 +17,6 @@ Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini a
 
 ## KiCad Schematic & PCB layout 
 
-![schematic](curl_tracker.svg)
-![pcb_view](pcb_view.png)
-![3d_view](3d_view.png)
-![manufactured](manufactured.png)
-
 ### Design Choices: 
 
 - ESP32-C3-MINI-1 module: Using a pre-certified module means the RF design is already done and the FCC/CE certification carries over, so I avoid the antenna layout, matching network, and re-testing that a bare C3 would require.
@@ -35,4 +30,9 @@ Curl Tracker is a wearable bicep curl tracker that uses an ESP32-C3 Super Mini a
 - USB-C: The current connector standard: reversible, mechanically more durable than micro-B, and what any user will already have a cable for.
   
 - JST-PH for battery and motor: Keyed housings so the connectors can't be seated backwards, and they're cheap, common, and rated well past the current this board draws.
+
+![schematic](curl_tracker.svg)
+![pcb_view](pcb_view.png)
+![3d_view](3d_view.png)
+![manufactured](manufactured.png)
 
